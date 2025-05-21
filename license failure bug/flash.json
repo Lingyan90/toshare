@@ -1,0 +1,51 @@
+{
+  "title": "flash",
+  "config-version": "1.2",
+  "description": null,
+  "model": {
+    "file": "flash.bkp",
+    "DigestValue": "eba8f3fac495badb7ba6e4315e9776c44920abf4",
+    "SignatureMethodAlgorithm": "sha1"
+  },
+  "input-files": [],
+  "author": null,
+  "date": "5/21/2025",
+  "filetype": "sinterconfig",
+  "filetype-version": 0.3,
+  "application": {
+    "name": "Aspen Plus",
+    "version": "36.0",
+    "constraint": "REQUIRED"
+  },
+  "inputs": {
+    "TEMP": {
+      "path": [
+        "\\Data\\Blocks\\FLASH\\Input\\TEMP"
+      ],
+      "type": "double",
+      "default": 30.0,
+      "description": "Lets you type the outlet temperature. See Help.",
+      "units": "degC"
+    }
+  },
+  "outputs": {
+    "G_FLOW": {
+      "path": [
+        "\\Data\\Streams\\G\\Output\\TOT_FLOW"
+      ],
+      "type": "double",
+      "default": 0.0,
+      "description": null,
+      "units": "kmol/hr"
+    },
+    "L_FLOW": {
+      "path": [
+        "\\Data\\Streams\\L\\Output\\TOT_FLOW"
+      ],
+      "type": "double",
+      "default": 100.0,
+      "description": null,
+      "units": "kmol/hr"
+    }
+  }
+}
